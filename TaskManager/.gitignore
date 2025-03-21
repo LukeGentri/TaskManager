@@ -1,36 +1,17 @@
-# Compiled class files
 *.class
-
-# JAR files
 *.jar
 *.war
-
-# Log files
 *.log
-
-# Build output directories (Maven/Gradle)
 target/
 build/
-
-# IntelliJ IDEA
 .idea/
 *.iml
-
-# Eclipse project files
 *.project
 *.classpath
 *.settings/
-
-# NetBeans project files
 nbproject/
-
-# VSCode workspace files
 .vscode/
-
-# Temporary files
 *.swp
 *.swo
-
-# Environment files (e.g., for test setups)
 .env
 /bin/
