@@ -14,7 +14,7 @@ Running the Program
 
 1. Clone the repository:
 
-git clone https://github.com/LukeGentri/TaskManager.git
+	git clone https://github.com/LukeGentri/TaskManager.git
 
 2. In Eclipse:
 
@@ -43,7 +43,7 @@ When saving or loading tasks from a file, the format is as follows: Name,Descrip
 
 For example, the following is a valid file to load with two tasks:
 
-Task 1,Description of task 1,2025-03-21
+Task 1,Description of task 1,2025-03-21 
 Task 2,Description of task 2,2025-03-22
 
 The file must not be empty when loading. Description may be empty. Name and DueDate must be present. Name and Description each have a max length of 50. There must be no spaces between fields. Tasks are automatically formatted as such when saving to a file.
