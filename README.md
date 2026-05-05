@@ -4,7 +4,7 @@ A robust, GUI-driven Java application designed to streamline personal productivi
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 *   **Full CRUD Operations**: Create, Read, Update, and Delete tasks with ease.
 *   **State Management**: Features a dedicated **Undo** functionality to reverse recent operations.
@@ -15,7 +15,7 @@ A robust, GUI-driven Java application designed to streamline personal productivi
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 *   **Language:** Java 8+
 *   **GUI Framework:** Swing/AWT
@@ -25,7 +25,7 @@ A robust, GUI-driven Java application designed to streamline personal productivi
 
 ---
 
-## 📦 Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 *   **Java Development Kit (JDK) 8** or higher.
@@ -47,7 +47,7 @@ A robust, GUI-driven Java application designed to streamline personal productivi
 
 ---
 
-## 🖥️ Usage Guide
+## Usage Guide
 
 | Feature | Action |
 | :--- | :--- |
@@ -69,7 +69,7 @@ For manual file creation, ensure the following format (Max 50 characters for Nam
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the **MIT License**.
 
