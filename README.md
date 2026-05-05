@@ -1,54 +1,80 @@
 # TaskManager
 
-TaskManager is a simple Java application built using Eclipse IDE. It's a to-do list that allows users to manage tasks through a GUI. Users can add tasks, remove tasks, and mark tasks complete. Users can also sort tasks by due date or name, list completed or incompleted tasks, clear all tasks, and undo any of the previous operations. TaskManager also supports file IO. Users can load a task list from a CSV file and save the current list to a file.
+A robust, GUI-driven Java application designed to streamline personal productivity. Built with a focus on clean code principles, **TaskManager** allows users to manage, sort, and persist tasks through an intuitive interface.
 
-Prerequisites
+---
 
-To run or modify this project, you need:
+## 🚀 Key Features
 
-    Java 8 or higher
-    Eclipse IDE (or any Java IDE that supports Maven or JUnit)
-    JUnit (for testing)
+*   **Full CRUD Operations**: Create, Read, Update, and Delete tasks with ease.
+*   **State Management**: Features a dedicated **Undo** functionality to reverse recent operations.
+*   **Dynamic Sorting**: Organize tasks by **Due Date** or **Alphabetical Name**.
+*   **Smart Filtering**: Toggle views between Completed, Incomplete, or All tasks.
+*   **Data Persistence**: Full File I/O support for saving and loading task lists via **CSV format**.
+*   **Unit Tested**: Core logic verified using **JUnit** to ensure reliability and edge-case handling.
 
-Running the Program
+---
 
-1. Clone the repository:
+## 🛠️ Tech Stack
 
-	git clone https://github.com/LukeGentri/TaskManager.git
+*   **Language:** Java 8+
+*   **GUI Framework:** Swing/AWT
+*   **Testing:** JUnit
+*   **IDE:** Optimized for Eclipse IDE
+*   **Version Control:** Git
 
-2. In Eclipse:
+---
 
-    Select File - Import - Existing Projects into Workspace.
-    Select the cloned repository.
-    Click Finish.
+## 📦 Installation & Setup
 
-3. Running the Program:
+### Prerequisites
+*   **Java Development Kit (JDK) 8** or higher.
+*   **Eclipse IDE** (or any Java-compatible IDE).
 
-    Run the TaskManagerGUI class as a Java Application.
+### Step-by-Step Instructions
 
-Usage
+1. **Clone the Repository**
+   `git clone https://github.com/LukeGentri/TaskManager.git`
 
-    Add Task: Click the "Add Task" button to create a new task. Fill in the name, description, and due date. Description may be empty.
-    Remove Task: Select a task from the list and click "Remove Task" to delete it.
-    Mark Completed: Mark a task as completed by clicking the checkbox next to it.
-	Clear List: Delete the entire list.
-	Undo: Reverse previous operation.
-    Sort Tasks: You can sort tasks by due date or name.
-	Show Tasks: You can show completed, incompleted, or all tasks.
-    Load/Save Tasks: Use the "Load" and "Save" buttons under the "File" panel to load from and save tasks to a CSV file.
+2. **Import into Eclipse**
+   *   Navigate to **File** > **Import**.
+   *   Select **General** > **Existing Projects into Workspace**.
+   *   Browse to the cloned directory and click **Finish**.
 
-Example CSV Format
+3. **Launch the App**
+   *   Locate the `TaskManagerGUI.java` file in the source folder.
+   *   Right-click the file and select **Run As** > **Java Application**.
 
-When saving or loading tasks from a file, the format is as follows: Name,Description,DueDate
+---
 
-For example, the following is a valid file to load with two tasks:
+## 🖥️ Usage Guide
 
-Task 1,Description 1,2025-03-21
+| Feature | Action |
+| :--- | :--- |
+| **Add Task** | Click "Add Task" and input the Name, Description, and Date. |
+| **Remove Task** | Select a task from the list and hit "Remove Task." |
+| **Complete Task**| Click the checkbox next to any task to toggle its status. |
+| **Undo** | Reverses the last action taken (Add/Remove/Clear). |
+| **File I/O** | Use the "File" panel to **Save** your list or **Load** an existing CSV. |
 
-Task 2, Description 2,2025-03-22
+### CSV Data Format
+For manual file creation, ensure the following format (Max 50 characters for Name/Description):
+`Name,Description,DueDate`
 
-The file must not be empty when loading. Description may be empty. Name and DueDate must be present. Name and Description each have a max length of 50. There must be no spaces between fields. Tasks are automatically formatted as such when saving to a file.
+**Example:**
+`Submit Project,Finalize documentation and push to GitHub,2026-05-15`
+`Review PRs,,2026-05-16`
 
-License
+> **Note:** The file must not be empty. Description is optional; Name and DueDate are required. No spaces between fields.
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+## Contact
+
+**Luke Gentri**
+CS @ NC State · Graduated May 2026
+[lukegentri1@gmail.com](mailto:lukegentri1@gmail.com) · [LinkedIn](https://www.linkedin.com/in/luke-gentri-384b033a4/)
